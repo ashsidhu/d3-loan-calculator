@@ -1,5 +1,32 @@
 /* your beautiful css styling goes here! */
 
-/* Note: an asteroid image is included in this repo. 
-Feel free to use it if you like. */
+.blue {
+  fill: rgb(0, 187, 255);
+  stroke: black;
+  stroke-width: 1px;
+}
 
+.inputs, .result {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border: black 1px solid;
+}
+
+.inputs {
+  left: 1000px;
+}
+
+.result {
+  left: 800px;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 194px;
+  margin-top: 10px;
+
+  font-size: 20px;
+  border: none;
+  border-bottom: black 1px solid;
+}
